@@ -1,0 +1,58 @@
+/* add your CSS here */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;	/*Apply same font to entire page - similar fonts for varying OS systems*/
+}
+
+/*Animal Trading Card - Sets a border around entire card and sets the font-size*/
+#info{
+	width: 320px;
+	border: 1px solid;
+	border-radius: 2px;
+	border-color: #d3d3d3;	
+	box-shadow: 2px 5px 5px 0px rgba(200,200,200,1);
+	font-size: 14px;
+}
+
+img {
+	display: block;	/*generatate element block box*/
+	margin: auto;	/*center image on all sides in block*/
+}
+
+/*Main Content of Animal Trading Card - Contains the Trivia Facts*/
+.main {
+	width: 300px;
+	margin: 10px;
+	border: 1px solid;
+	border-radius: 2px;
+	border-color: #d3d3d3;
+}
+
+.title {
+	margin: 10px;
+}
+
+.fun-fact {
+	font-style: italic;
+}
+
+p {
+	margin: 10px; /*Give each paragraph and 10px margin*/
+}
+
+ul {
+	list-style: none;	/*Remove bullets from list*/
+	padding-left: 10px;	/*Indent matches margin of paragraps*/
+}
+
+li {
+	font-style: italic;
+}
+
+span {
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+
